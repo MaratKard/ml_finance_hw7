@@ -89,4 +89,6 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    os.environ["PORT"] = "7777"
+    os.environ["MODEL_PATH"] = "./models"
     typer.run(main)
